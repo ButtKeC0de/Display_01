@@ -1,0 +1,14 @@
+body{
+    background-color: darkolivegreen;
+}
+
+.one{
+    padding: 50;
+    margin: 20;
+    background-color: rgb(255, 255, 255);
+}
+
+.flex{
+    display: flex;
+}
+
