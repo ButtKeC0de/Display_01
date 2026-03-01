@@ -6,10 +6,14 @@ body{
 
 .one{
 
-    padding: 50;
-    margin: 20;
-    background-image: url(baixados.webp);
-
+ padding: 50px;
+  margin: 20px;
+  width: 120px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(baixados.webp);
 }
 
 .flex{
@@ -21,9 +25,14 @@ body{
 
 .one2{
 
-    padding: 55;
-    margin: 20;
-    background-image: url(baixados.webp);
+  padding: 55px;
+  margin: 20px;
+  width: 120px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(baixados.webp);
 
 }
 
@@ -35,9 +44,14 @@ body{
 }
 .oneside{
 
-    padding-right: 260;
-    margin: 20;
-    background-image: url(images.jfif)
+     padding-right: 260px;
+     margin: 20px;
+     width: 120px;
+     height: 400px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-image: url(images.jfif)
 
 }
 .bl{
@@ -48,10 +62,11 @@ body{
 }
 .oneside3{
 
-    padding-right: 300;
-    margin: 20;
-    background-color: rgb(255, 255, 255);
-
+   padding-right: 300px;
+  margin: 20px;
+  width: 120px;
+  height: 260px;    
+  background-color: rgb(255, 255, 255);
 }
 .bloco{
 
@@ -62,64 +77,3 @@ body{
 
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.tres{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container {
-  background-image: url(images.jfif);
-  padding: 30px;
-  display: flex;
-  gap: 30px;
-}
-
-
-.coluna-esquerda,
-.coluna-direita {
-  display: flex;
-}
-
-.coluna-esquerda {
-  flex-direction: column;
-}
-
-.coluna-direita {
-  flex-direction :column;
-  gap: 30px;
-}
-
-
-.linha-baixo {
-  display: flex;
-  gap: 30px;
-}
-
-
-.box {
-  background-image: url(baixados.webp);
-}
-
-
-.alto {
-  width: 120px;
-  height: 400px;
-}
-
-.largo {
-  width: 300px;
-  height: 120px;
-}
-
-.medio {
-  width: 135px;
-  height: 250px;
-}
